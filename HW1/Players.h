@@ -19,6 +19,8 @@ public:
 	};
 	~Players();
 
+	void Show1() const;
+	void Show2() const;
 	void Show() const;
 
 	int GetScore1() const { return score1; }
