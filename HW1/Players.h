@@ -11,6 +11,9 @@ public:
 	short rank1{ 0 };		// 1번 경기 등수
 	short rank2{ 0 };		// 2번 경기 등수
 
+	short past_rank1{ 0 };
+	short past_rank2{ 0 };
+
 public:
 	Players();
 	Players(std::string s, int n1, int n2) : score1(n1), score2(n2)
@@ -22,6 +25,7 @@ public:
 	void Show1() const;
 	void Show2() const;
 	void Show() const;
+	void My_Show() const;
 
 	int GetScore1() const { return score1; }
 	int GetScore2() const { return score2; }
