@@ -29,7 +29,7 @@ void Players::Show() const
 void Players::My_Show() const
 {
 	std::cout << "=================================" << std::endl;
-	std::cout << "ÄíÅ°ÈÆ·Ã¼Ò : " << score1 << "Á¡ (" << rank1 << ")µî"
+	std::cout << id << ", ÄíÅ°ÈÆ·Ã¼Ò : " << score1 << "Á¡ (" << rank1 << ")µî"
 		<< ", ÄíÅ°ÈÆ·Ã¼Ò ·©Å· º¯È­ : " << rank1 - past_rank1
 		<< ", »óÀ§ " << rank1 << "%" << std::endl;
 	
