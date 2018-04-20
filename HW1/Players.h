@@ -10,8 +10,8 @@ class Players
 {
 public:
 	char id[13];		// 아이디
-	int score1{ 0 };			// 1번 경기 최고 점수
-	int score2{ 0 };			// 2번 경기 최고 점수
+	int score1{ 0 };	// 1번 경기 최고 점수
+	int score2{ 0 };	// 2번 경기 최고 점수
 	int rank1{ 0 };		// 1번 경기 등수
 	int rank2{ 0 };		// 2번 경기 등수
 
